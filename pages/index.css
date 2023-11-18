@@ -170,12 +170,12 @@
 }
 
 .recipes__iframe {
+  display: flex;
   margin: 0;
-  flex-direction: row;
+  gap: 40px;
 }
 
 .recipes__video-caption {
-}
-
-.recipes__span-accent {
+  display: flex;
+  justify-content: space-between;
 }
