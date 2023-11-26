@@ -24,9 +24,19 @@
   margin: auto;
   max-width: 780px;
   padding-bottom: 100px;
-  font-family: "Noto serif", "Times New Roman", Times, serif;
+  font-family: "Noto serif", "Times New Roman", serif;
   font-style: normal;
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+}
+
+.menu__cards {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 100px;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
 }
