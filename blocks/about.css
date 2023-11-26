@@ -1,4 +1,4 @@
-@keyframes pulse {
+@keyframes pulsate {
   0% {
     opacity: 0;
   }
@@ -53,7 +53,7 @@
 }
 
 .about__circle_animation_blurred {
-  animation: pulsate 1.3s ease-out infinite;
+  animation: pulsate 1.3s ease-in-out infinite;
 }
 
 .about__paragraph {
